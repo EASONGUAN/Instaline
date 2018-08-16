@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.instaline.EditProfileActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/intro_background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/intro3"/>
+
+    <TextView
+        android:id="@+id/tap_to_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/TapToEdit"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textfield_2dp_style"
+        android:hint="@string/UsernameHint"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="12dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/useremail_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textfield_2dp_style"
+        android:hint="@string/UseremailHint"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:scrollHorizontally="true"/>
+
+    <TextView
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/EditPassword"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/save_changes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/blue_2dp_button_style"
+        android:text="@string/SaveProfileChangeText"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

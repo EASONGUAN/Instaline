@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "353628895292",
+    "firebase_url": "https://instaline-b3b17.firebaseio.com",
+    "project_id": "instaline-b3b17",
+    "storage_bucket": "instaline-b3b17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353628895292:android:d833a0b01b9281f5",
+        "android_client_info": {
+          "package_name": "com.example.android.instaline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353628895292-npna80sit243mktgpf6g4k2sguoftgil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.instaline",
+            "certificate_hash": "e40541db4d35644869d9ba032fc83db00f8eefe9"
+          }
+        },
+        {
+          "client_id": "353628895292-op73uapmutkv1rqjg1ju9456jeg0ea4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBawk5CM-w_08pr3ccUSlofvOjx0HUK-ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353628895292-op73uapmutkv1rqjg1ju9456jeg0ea4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

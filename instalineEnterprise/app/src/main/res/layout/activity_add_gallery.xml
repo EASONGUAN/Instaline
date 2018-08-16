@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/intro_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.instalineenterprise.AddGalleryActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cur_profile_img"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/intro3" />
+
+    <Button
+        android:id="@+id/select_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/red_2dp_button_style"
+        android:text="Select from Album"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:id="@+id/scrollView_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <Button
+        android:id="@+id/summit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/blue_2dp_button_style"
+        android:text="@string/EnterText"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

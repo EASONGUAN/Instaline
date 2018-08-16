@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Instaline Enterprise</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_history">History</string>
+    <string name="nav_lineUp">InstaLine</string>
+    <string name="nav_person">Me</string>
+    <string name="TapToEdit">Tap to edit</string>
+    <string name="UsernameHint">Username</string>
+    <string name="UseremailHint">Useremail</string>
+    <string name="EnterText">Enter</string>
+    <string name="SaveProfileChangeText">Save</string>
+    <string name="EditPassword">Want to reset password?</string>
+    <string name="waiting_list">Waiting List</string>
+    <string name="restaurant_info">My Profiles</string>
+    <string name="AddressHint">Address</string>
+    <string name="CategoryHint">Category</string>
+
+
+    <string-array name="price_arrays">
+        <item>$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+        <item>$$$$$</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.instaline.Google_Map">
+</fragment>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:id="@+id/map"-->
+        <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:context="com.example.android.instaline.Google_Map">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="10"-->
+                <!--android:padding="16dp">-->
+
+
+            <!--</LinearLayout>-->
+
+        <!--</RelativeLayout>-->
+    <!--</fragment>-->
+
+<!--</LinearLayout>-->
+
+
+<!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.android.instaline.Google_Map">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="10"-->
+            <!--android:padding="16dp">-->
+
+
+        <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+<!--</fragment>-->

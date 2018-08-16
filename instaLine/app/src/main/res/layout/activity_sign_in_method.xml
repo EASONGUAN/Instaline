@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.instaline.SignInMethodActivity"
+    android:background="@mipmap/background2">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="InstaLine"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:textSize="35dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:layout_marginBottom="80dp">
+
+        <!--Sign in button-->
+        <Button
+            android:text="Sign in"
+            android:background="@drawable/blue_2dp_button_style"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openSignIn"/>
+
+        <!--Sign up button-->
+        <Button
+            android:text="Sign up"
+            android:background="@drawable/red_2dp_button_style"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openSignUp"/>
+
+        <!--Sign in with Google-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/white_2dp_button_style"
+            android:drawableLeft="@mipmap/google_icon"
+            android:onClick="openSignInGoogle"
+            android:text="Sign in with Google"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_waiting_list"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/waiting_list"
+        />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/restaurant_info" />
+
+</menu>

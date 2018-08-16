@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.instalineenterprise">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main -->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Sign in -->
+        <activity
+            android:name=".SignInActivity"
+            android:label="Sign in"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Sign up -->
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignInGoogleActivity"
+            android:label="Sign in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignInMethodActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainIntroSlideActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BottomNavigationBarActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".AddProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".AddGalleryActivity"></activity>
+    </application>
+
+</manifest>

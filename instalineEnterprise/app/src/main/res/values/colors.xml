@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#444549</color>
+    <color name="colorPrimaryDark">#5d5e63</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="instalineBlue">#4c6d74</color>
+    <color name="instalineRed">#935F69</color>
+    <color name="disableRed">#cb2747</color>
+
+    <color name="red_ff4a57">#ff4a57</color>
+
+    <color name="press">#efefef</color>
+    <color name="normal">#ffffff</color>
+
+</resources>
